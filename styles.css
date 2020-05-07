@@ -51,11 +51,10 @@
     #navigation_bar li a {
       color: black;
       font-size: 16px;
-      font-family: "Trebuchet MS", Arial,
-      Helvetica, sans-serif;
+      font-family: Helvetica;
       line-height: 35px;
       padding: 4px;
-      opacity: 0.7;
+      opacity: 0.8;
     }
 
 
