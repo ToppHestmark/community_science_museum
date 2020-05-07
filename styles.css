@@ -253,6 +253,9 @@
       opacity: 0.8;
     }
     
+    #navigation_bar li a:hover {
+      color: blue;
+    }
     
   }
 
