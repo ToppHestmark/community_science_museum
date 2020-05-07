@@ -64,6 +64,59 @@
   /* Smartphones (landscape) */
   @media (min-width: 481px) and (max-width: 767px) {
   
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(179, 205, 211);
+      min-height: 100vh;
+    }
+
+    .logo {
+      margin: 0 auto;
+    }
+
+    #navigation_bar img{
+      float: left;
+      height: 30px;
+      margin-top: 11px;
+      margin-left: 10px;
+    }
+
+    #navigation_bar {
+      background-color: #ffffff;
+      height: auto;
+      width: 100%;
+      text-align: right;
+      flex-direction: column;
+    }
+    
+    #navigation_bar ul {
+      padding: 10px;
+      margin: 0px;
+      text-align: right;
+      display: inline-block;
+    }
+    
+    #navigation_bar li {
+      list-style-type: none;
+      padding: 0px;
+      display: inline;
+    }
+    
+    #navigation_bar li a {
+      color: black;
+      font-size: 16px;
+      font-family: Helvetica;
+      line-height: 35px;
+      padding: 5px;
+      opacity: 0.8;
+    }
     
     
   }
