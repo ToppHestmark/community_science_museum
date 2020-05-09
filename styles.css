@@ -551,28 +551,28 @@ html, body {
     html, body {
       height: 100%;
     }
-
+  
     body {
-      max-width: 1920px;
       margin: 0 auto;
       padding: 0;
       display: flex;
       flex-direction: column;
-      background-color: #ffffff;
+      background-color: #f5f5f5;
       min-height: 100vh;
     }
-
+  
+    /* ----------Navbar---------- */
     .logo {
       margin: 0 auto;
     }
-
+  
     #navigation_bar img{
       float: left;
       height: 50px;
-      padding: 10px;
-      margin-left: 50px;
+      margin: 10px;
+      padding-left: 3%;
     }
-
+  
     #navigation_bar {
       background-color: #ffffff;
       height: auto;
@@ -585,6 +585,7 @@ html, body {
     #navigation_bar ul {
       padding: 10px 30px 10px 0px;
       margin: 0px;
+      padding-right: 5%;
       text-align: right;
       display: inline-block;
     }
@@ -606,117 +607,50 @@ html, body {
     }
     
     #navigation_bar li a:hover {
-      color: #F58F4A;
+      text-decoration: underline;
     }
   
-  }
-
-/* Desktop for higher resolution */
-@media (min-width: 1281px) {
-
-  html, body {
-    height: 100%;
-  }
-
-  body {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-  }
-
-  /* ----------Navbar---------- */
-  .logo {
-    margin: 0 auto;
-  }
-
-  #navigation_bar img{
-    float: left;
-    height: 50px;
-    margin: 10px;
-    padding-left: 3%;
-  }
-
-  #navigation_bar {
-    background-color: #ffffff;
-    height: auto;
-    width: 100%;
-    text-align: right;
-    flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
+  /* ----------Header---------- */
+  .header_container {
+    background-image: url("images_csm/toa-heftiba-412579.jpg");
+    /* Image source: Community Science Museum */
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
   }
   
-  #navigation_bar ul {
-    padding: 10px 30px 10px 0px;
-    margin: 0px;
-    padding-right: 5%;
-    text-align: right;
-    display: inline-block;
+  .inside_header_container {
+    margin: 7px;
   }
   
-  #navigation_bar li {
-    list-style-type: none;
-    padding: 0px;
-    display: inline;
+  h1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    color: #f5f5f5;
   }
   
-  #navigation_bar li a {
-    color: black;
-    font-size: 20px;
-    font-family: Helvetica;
-    text-decoration: none;
-    line-height: 52px;
-    padding: 10px;
-    opacity: 0.8;
+  h4 {
+    text-align: center;
+    color: #f5f5f5;
   }
   
-  #navigation_bar li a:hover {
-    text-decoration: underline;
+  .welcome_to {
+    font-weight: lighter;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: -2rem;
   }
-
-/* ----------Header---------- */
-.header_container {
-  background-image: url("images_csm/toa-heftiba-412579.jpg");
-  /* Image source: Community Science Museum */
-  background-position: center center;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-.inside_header_container {
-  margin: 7px;
-}
-
-h1 {
-  font-size: 3.5rem;
-  text-shadow: 1px 1px 1px #000;
-  text-align: center;
-  color: #f5f5f5;
-}
-
-h4 {
-  text-align: center;
-  color: #f5f5f5;
-}
-
-.welcome_to {
-  font-weight: lighter;
-  text-align: center;
-  color: #f5f5f5;
-  margin-top: -2rem;
-}
-
-.header_bottom {
-  margin-top: 9rem;
-}
-
-.admission_fee {
-  font-size: larger;
-  color: #F58F4A;
-}
-
+  
+  .header_bottom {
+    margin-top: 9rem;
+  }
+  
+  .admission_fee {
+    font-size: larger;
+    color: #F58F4A;
+  }
+  
 }
