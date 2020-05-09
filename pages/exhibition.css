@@ -438,7 +438,9 @@ html, body {
     /* Image source: Community Science Museum */
     background-position: center center;
     position: relative;
-    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
   }
 
   .inside_header_container {
@@ -532,7 +534,9 @@ html, body {
   /* Image source: Community Science Museum */
   background-position: center center;
   position: relative;
-  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
 .inside_header_container {
