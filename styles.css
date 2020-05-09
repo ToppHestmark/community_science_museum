@@ -274,7 +274,7 @@ html, body {
   }
 
   #navigation_bar li a:hover {
-    color: #F58F4A;
+    text-decoration: underline;
   }
   
   /* ----------Header---------- */
@@ -382,7 +382,7 @@ html, body {
   }
 
   #navigation_bar li a:hover {
-    color: #F58F4A;
+    text-decoration: underline;
   }
   
   /* ----------Header---------- */
@@ -491,7 +491,7 @@ html, body {
   }
   
   #navigation_bar li a:hover {
-    color: #F58F4A;
+    text-decoration: underline;
   }
 
   /* ----------Header---------- */
@@ -600,7 +600,7 @@ html, body {
   }
   
   #navigation_bar li a:hover {
-    color: #F58F4A;
+    text-decoration: underline;
   }
 
 /* ----------Header---------- */
