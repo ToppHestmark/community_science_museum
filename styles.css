@@ -2,6 +2,10 @@
   font-family: Helvetica;
   }
 
+  h3 {
+    color: #1A1A1A;
+  }
+
   .on_this_page {
     text-decoration: underline;
     font-weight: 900;
@@ -101,6 +105,7 @@ html, body {
   
   .header_bottom {
     margin-top: 9rem;
+    opacity: 90%;
   }
 
   .admission_fee {
@@ -108,6 +113,16 @@ html, body {
     color: #F58F4A;
   }
 
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 10px;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: initial;
+  }
 }
 
 
@@ -204,15 +219,26 @@ html, body {
   }
   
   .header_bottom {
-    margin-top: 5rem;
+    margin-top: 9rem;
+    opacity: 90%;
   }
 
   .admission_fee {
     font-size: larger;
     color: #F58F4A;
   }
-  
-  
+
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: initial;
+  }
+
 }
 
 
@@ -314,11 +340,23 @@ html, body {
   
   .header_bottom {
     margin-top: 9rem;
+    opacity: 90%;
   }
 
   .admission_fee {
     font-size: larger;
     color: #F58F4A;
+  }
+
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 20px 10vw 20px 10vw;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: initial;
   }
   
 }
@@ -422,11 +460,23 @@ html, body {
   
   .header_bottom {
     margin-top: 9rem;
+    opacity: 90%;
   }
 
   .admission_fee {
     font-size: larger;
     color: #F58F4A;
+  }
+
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 20px 10vw 20px 10vw;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: initial;
   }
   
 }
@@ -533,11 +583,24 @@ html, body {
   
   .header_bottom {
     margin-top: 9rem;
+    opacity: 90%;
   }
 
   .admission_fee {
     font-size: larger;
     color: #F58F4A;
+  }
+
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 20px 20vw 20px 20vw;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: inherit;
+    font-size: 1.5rem;
   }
   
 }
@@ -646,11 +709,24 @@ html, body {
   
   .header_bottom {
     margin-top: 9rem;
+    opacity: 90%;
   }
   
   .admission_fee {
     font-size: larger;
     color: #F58F4A;
+  }
+
+  /* ----------Below Header---------- */
+  .join_us_textbox {
+    margin: 20px 25vw 20px 25vw;
+    text-align: center;
+  }
+
+  h3 {
+    color: #1A1A1A;
+    font-weight: inherit;
+    font-size: 1.5rem;
   }
   
 }
