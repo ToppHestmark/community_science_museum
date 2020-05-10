@@ -2,6 +2,10 @@
   font-family: Helvetica;
   }
 
+  .on_this_page {
+    text-decoration: underline;
+    font-weight: 900;
+  }
 
 /* Smartphones (portrait) */
 @media only screen and (min-width : 320px) and (max-width : 480px) { 
@@ -609,6 +613,7 @@ html, body {
     #navigation_bar li a:hover {
       text-decoration: underline;
     }
+
   
   /* ----------Header---------- */
   .header_container {
