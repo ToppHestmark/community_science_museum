@@ -440,7 +440,7 @@ html, body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 60vh;
   }
 
   .inside_header_container {
@@ -536,7 +536,7 @@ html, body {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 60vh;
 }
 
 .inside_header_container {
