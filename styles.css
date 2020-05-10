@@ -141,7 +141,7 @@ html, body {
     height: auto;
   }
 
-  .photo_text {
+  .photo_text_mobile {
     opacity: 70%;
     font-size: x-small;
     margin-top: -0.15rem;
