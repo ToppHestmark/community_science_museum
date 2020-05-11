@@ -963,7 +963,7 @@ html, body {
   }
   
   /* ----------Articles---------- */
-  .section_one, .section_two {
+  .section_one {
   margin: 0 2rem 0 2rem;
   background-color: #F1F2F6;
   display: inline-block;
@@ -993,6 +993,13 @@ html, body {
 
 .photo_source_mobile {
   visibility: collapse;
+}
+
+.section_two {
+  margin: 2rem 2rem 0 2rem;
+  background-color: #F1F2F6;
+  display: inline-block;
+  align-items: flex-start;
 }
 
 .section_two img {
