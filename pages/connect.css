@@ -104,6 +104,7 @@
   .title_text {
     margin: 3rem 0.4rem 3rem 0.4rem;
     text-align: center;
+    font-size: initial;
   }
 
   h2 {
@@ -274,6 +275,7 @@
    .title_text {
     margin: 3rem 2rem 3rem 2rem;
     text-align: center;
+    font-size: initial;
   }
 
   h2 {
@@ -459,6 +461,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
   }
 
   h2 {
@@ -654,6 +657,7 @@
     font-size: 1.8rem;
     color: #1A1A1A;
     font-weight: initial;
+    font-size: 1.2rem;
   }
   
   /* ----------Articles---------- */
@@ -872,7 +876,7 @@ h1 {
   justify-content: center;
   color: #1A1A1A;
   font-weight: initial;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 /* ----------Articles---------- */
