@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap');
 
 
-  h1 {
+  h1, h4 {
   font-family: Helvetica;
   }
+
   h2 {
     font-family: 'Roboto', sans-serif;
   }
@@ -106,6 +107,7 @@ html, body {
   h2 {
     color: #1A1A1A;
     font-weight: initial;
+    font-size: initial;
   }
 
   /* ----------Articles---------- */
@@ -278,6 +280,7 @@ html, body {
   h2 {
     color: #1A1A1A;
     font-weight: initial;
+    font-size: initial;
   }
 
   /* ----------Articles---------- */
@@ -313,7 +316,7 @@ html, body {
 
   .section_one h2, .section_two h2 {
     margin: 1.5rem 0 0 1rem;
-    font-size: large;
+    font-size: x-large;
     text-decoration: underline;
     font-style: italic;
   }
@@ -463,12 +466,12 @@ html, body {
   h2 {
     color: #1A1A1A;
     font-weight: initial;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
    /* ----------Articles---------- */
    .section_one, .section_two {
-    margin: 0 2rem 0 2rem;
+    margin: 0 4rem 0 4rem;
     background-color: #F1F2F6;
   }
 
@@ -651,7 +654,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   h2 {
@@ -880,6 +883,7 @@ h1 {
   font-size: 1.8rem;
   color: #1A1A1A;
   font-weight: initial;
+  font-size: 1.3rem;
 }
 
 /* ----------Articles---------- */
