@@ -104,6 +104,73 @@ html, body {
     font-weight: initial;
   }
 
+  /* ----------Articles---------- */
+  .section_container {
+    margin: 0 1rem 3rem 1rem;
+    background: #F1F2F6;
+  }
+
+  .section_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo_source {
+    opacity: 70%;
+    font-size: x-small;
+    margin: -0.15rem 0 0 0.5rem;
+  }
+
+  .article_text {
+    margin: -1rem 1rem 0 1rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+  }
+
+  .section_container h2 {
+    margin: 2rem 0 2.5rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  /* ----------Bottom---------- */
+  .bottom {
+    margin-top: 10rem;
+    padding: 3rem 0rem 3rem 0rem;
+    background-color: #8B9096;
+  }
+
+  .bottom h4 {
+    color: #1A1A1A;
+    text-align: left;
+  }
+
+  .address, .hours {
+    margin: 3rem 0rem 3rem 3rem;
+    font-size: smaller;
+    opacity: 90%;
+  }
+
+  .hours p {
+    margin: 0;
+    padding-bottom: 7px;
+  }
+
+  .address p {
+    margin: 0;
+    padding-bottom: 3px;
+  }
+
+  /* ----------Footer---------- */
+  footer {
+  background-color: #8B9096;
+  font-size: x-small;
+  font-weight: lighter;
+  text-align: center;
+  }
+  
+  footer p {
+    opacity: 70%;
+  }
 
 }
 
@@ -193,6 +260,82 @@ html, body {
     font-weight: initial;
   }
   
+   /* ----------Articles---------- */
+   .section_container {
+    background: #F1F2F6;
+    width: 70%;
+    margin: 0 15vw 5vh 15vw;
+  }
+
+  .section_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo_source {
+    opacity: 70%;
+    font-size: x-small;
+    margin: -0.15rem 0 0 0.5rem;
+  }
+
+  .article_text {
+    margin: -1rem 1rem 0 1rem;
+    padding-bottom: 2rem;
+    font-size: 16px;
+  }
+
+  .section_container h2 {
+    margin: 2rem 0 2.5rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  /* ----------Bottom---------- */
+  .bottom {
+    margin-top: 10rem;
+    padding: 3rem 0 3rem 0;
+    background-color: #8B9096;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom h4 {
+    color: #1A1A1A;
+    text-align: left;
+  }
+
+  .address, .hours {
+    padding: 0rem 0rem 3rem 3rem;
+    font-size: smaller;
+    opacity: 90%;
+    width: 250px;
+    height: 230px;
+    float: left;
+  }
+
+  .hours p {
+    margin: 0;
+    padding-bottom: 7px;
+  }
+
+  .address p {
+    margin: 0;
+    padding-bottom: 3px;
+  }
+
+  /* ----------Footer---------- */
+  footer {
+  background-color: #8B9096;
+  font-size: x-small;
+  font-weight: lighter;
+  text-align: center;
+  }
+  
+  footer p {
+    opacity: 70%;
+  }
+  
+
 }
 
 
@@ -286,6 +429,91 @@ html, body {
     justify-content: center;
     color: #1A1A1A;
     font-weight: initial;
+  }
+
+   /* ----------Articles---------- */
+    .items_container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+   .section_container {
+    margin: 0 2rem 3rem 2rem;
+    background: #F1F2F6;
+    width: 300px;
+    height: 520px;
+  }
+
+  .section_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo_source {
+    opacity: 70%;
+    font-size: x-small;
+    margin: -0.15rem 0 0 0.5rem;
+  }
+
+  .article_text {
+    margin: 1.5rem 1rem -0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  .section_container h2 {
+    margin: 1.5rem 0 0 1rem;
+    font-size: 1.2rem;
+  }
+
+   /* ----------Bottom---------- */
+   .bottom {
+    margin-top: 10rem;
+    padding: 3rem 0 3rem 0;
+    background-color: #8B9096;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom h4 {
+    color: #1A1A1A;
+    text-align: left;
+  }
+
+  .hours, .address {
+    font-size: smaller;
+    opacity: 90%;
+    width: 250px;
+    height: 230px;
+    float: left;
+  }
+
+  .address {
+    padding-left: 5vw;
+  }
+
+  .hours p {
+    margin: 0;
+    padding-bottom: 7px;
+  }
+
+  .address p {
+  margin: 0;
+  padding-bottom: 3px;
+  }
+
+  /* ----------Footer---------- */
+  footer {
+  background-color: #8B9096;
+  font-size: x-small;
+  font-weight: lighter;
+  text-align: center;
+  }
+  
+  footer p {
+    opacity: 70%;
   }
   
 }
@@ -386,6 +614,91 @@ html, body {
     color: #1A1A1A;
     font-weight: initial;
   }
+
+  /* ----------Articles---------- */
+  .items_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .section_container {
+  margin: 0 2rem 3rem 2rem;
+  background: #F1F2F6;
+  width: 300px;
+  height: 520px;
+}
+
+.section_container img {
+  width: 100%;
+  height: auto;
+}
+
+.photo_source {
+  opacity: 70%;
+  font-size: x-small;
+  margin: -0.15rem 0 0 0.5rem;
+}
+
+.article_text {
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  font-size: 16px;
+}
+
+.section_container h2 {
+  margin: 1.5rem 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* ----------Bottom---------- */
+.bottom {
+  margin-top: 10rem;
+  padding: 3rem 0 3rem 0;
+  background-color: #8B9096;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom h4 {
+  color: #1A1A1A;
+  text-align: left;
+}
+
+.hours, .address {
+  font-size: smaller;
+  opacity: 90%;
+  width: 250px;
+  height: 230px;
+  float: left;
+}
+
+.address {
+  padding-left: 5vw;
+}
+
+.hours p {
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+.address p {
+margin: 0;
+padding-bottom: 3px;
+}
+
+/* ----------Footer---------- */
+footer {
+background-color: #8B9096;
+font-size: x-small;
+font-weight: lighter;
+text-align: center;
+}
+
+footer p {
+  opacity: 70%;
+}
   
 }
 
@@ -484,6 +797,57 @@ html, body {
     justify-content: center;
     color: #1A1A1A;
     font-weight: initial;
+  }
+
+
+
+  /* ----------Bottom---------- */
+.bottom {
+  margin-top: 10rem;
+  padding: 3rem 0 3rem 0;
+  background-color: #8B9096;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .bottom h4 {
+  color: #1A1A1A;
+  text-align: left;
+  }
+  
+  .hours, .address {
+  font-size: smaller;
+  opacity: 90%;
+  width: 250px;
+  height: 230px;
+  float: left;
+  }
+  
+  .address {
+  padding-left: 10vw;
+  }
+  
+  .hours p {
+  margin: 0;
+  padding-bottom: 7px;
+  }
+  
+  .address p {
+  margin: 0;
+  padding-bottom: 3px;
+  }
+  
+  /* ----------Footer---------- */
+  footer {
+  background-color: #8B9096;
+  font-size: x-small;
+  font-weight: lighter;
+  text-align: center;
+  }
+  
+  footer p {
+  opacity: 70%;
   }
 
 }
