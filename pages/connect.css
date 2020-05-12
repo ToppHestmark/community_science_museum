@@ -874,7 +874,7 @@ h1 {
 
 /* ----------Articles---------- */
 .section_one {
-margin: 2rem 2rem 0 2rem;
+margin: 2rem 5rem 0 5rem;
 background-color: #F1F2F6;
 display: inline-block;
 align-items: flex-start;
@@ -896,7 +896,7 @@ font-size: 16px;
 }
 
 .h2_one_push_right {
-  margin-left: 50.5vw;
+  margin-left: 47.3vw;
   font-size: xx-large;
 }
 
@@ -908,7 +908,7 @@ font-size: 16px;
 .photo_source_desktop_one {
 opacity: 70%;
 font-size: x-small;
-margin-left: 2rem;
+margin-left: 5rem;
 }
 
 .photo_source_mobile {
@@ -916,7 +916,7 @@ visibility: collapse;
 }
 
 .section_two {
-margin: 2rem 2rem 0 2rem;
+margin: 2rem 5rem 0 5rem;
 background-color: #F1F2F6;
 display: inline-block;
 align-items: flex-start;
@@ -932,7 +932,7 @@ width: 50%;
 .photo_source_desktop_two {
 opacity: 70%;
 font-size: x-small;
-margin-right: 2rem;
+margin-right: 5rem;
 text-align: end;
 }
 
