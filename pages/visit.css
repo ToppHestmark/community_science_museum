@@ -368,15 +368,15 @@ html, body {
   }
 
   #navigation_bar {
+    padding: 0 4rem 0 4rem;
     background-color: #ffffff;
     height: auto;
-    width: 100%;
     text-align: right;
     flex-direction: column;
   }
   
   #navigation_bar ul {
-    padding: 10px 30px 10px 0px;
+    padding: 10px 0px 10px 0px;
     margin: 0px;
     text-align: right;
     display: inline-block;
@@ -394,7 +394,7 @@ html, body {
     font-family: Helvetica;
     text-decoration: none;
     line-height: 52px;
-    padding: 10px;
+    padding-left: 10px;
     opacity: 0.8;
   }
 
@@ -409,12 +409,13 @@ html, body {
     background-position: center center;
     position: relative;
     height: 400px;
+    margin: 0 4rem 0 4rem;
   }
 
   .inside_header_container {
     margin: 15vh 0 15vh 0;
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
@@ -549,17 +550,16 @@ html, body {
   }
 
   #navigation_bar {
+    margin: 0 2rem 0 2rem;
     background-color: #ffffff;
     height: auto;
-    width: 100%;
     text-align: right;
     flex-direction: column;
   }
   
   #navigation_bar ul {
-    padding: 10px 30px 10px 0px;
+    padding: 10px 0 10px 0px;
     margin: 0px;
-    padding-right: 5%;
     text-align: right;
     display: inline-block;
   }
@@ -576,7 +576,7 @@ html, body {
     font-family: Helvetica;
     text-decoration: none;
     line-height: 52px;
-    padding: 10px;
+    padding-left: 20px;
     opacity: 0.8;
   }
   
@@ -593,12 +593,13 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+    margin: 0 2rem 0 2rem;
   }
 
   .inside_header_container {
     margin: 15vh 0 15vh 0;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
@@ -735,17 +736,16 @@ footer p {
   }
 
   #navigation_bar {
+    margin: 0 5rem 0 5rem;
     background-color: #ffffff;
     height: auto;
-    width: 100%;
     text-align: right;
     flex-direction: column;
   }
   
   #navigation_bar ul {
-    padding: 10px 30px 10px 0px;
+    padding: 10px 0px 10px 0px;
     margin: 0px;
-    padding-right: 5%;
     text-align: right;
     display: inline-block;
   }
@@ -762,7 +762,7 @@ footer p {
     font-family: Helvetica;
     text-decoration: none;
     line-height: 52px;
-    padding: 10px;
+    padding-left: 25px;
     opacity: 0.8;
   }
   
@@ -779,12 +779,13 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+    margin: 0 5rem 0 5rem;
   }
 
   .inside_header_container {
     margin: 15vh 0 15vh 0;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
