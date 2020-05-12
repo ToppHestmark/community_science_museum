@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap');
+
+
 h1, h4 {
   font-family: Helvetica;
   }
 
-  .on_this_page {
-    text-decoration: underline;
-    font-weight: 900;
+  h2 {
+    font-family: 'Roboto', sans-serif;
   }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    font-weight: lighter;
+  }
+
+.on_this_page {
+  text-decoration: underline;
+  font-weight: 900;
+}
 
 /* Smartphones (portrait) */
 @media only screen and (min-width : 320px) and (max-width : 480px) { 
@@ -41,7 +54,6 @@ html, body {
     width: 100%;
     text-align: center;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -77,17 +89,19 @@ html, body {
   }
 
   .inside_header_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  h1 {
-    font-size: 4rem;
+    margin: 15vh 0 15vh 0;
+    font-size: 3rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
+    text-align: center;
+  }
+
+  /* ----------Below Header---------- */
+  .title_text {
+    margin: 5rem 0.4rem 5rem 0.4rem;
+    text-align: center;
+    color: #1A1A1A;
+    font-weight: initial;
   }
 
 
@@ -128,7 +142,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -164,19 +177,21 @@ html, body {
   }
 
   .inside_header_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  h1 {
-    font-size: 4rem;
+    margin: 15vh 0 15vh 0;
+    text-align: center;
+    font-size: 3rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
+
   
+  /* ----------Below Header---------- */
+  .title_text {
+    margin: 5rem 2rem 5rem 2rem;
+    text-align: center;
+    color: #1A1A1A;
+    font-weight: initial;
+  }
   
 }
 
@@ -215,7 +230,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -255,111 +269,24 @@ html, body {
   }
 
   .inside_header_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  h1 {
+    margin: 15vh 0 15vh 0;
+    text-align: center;
     font-size: 5rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
 
   
-}
-
-
-/*---------------------------------------------------------------------------------------------*/
-/* Tablet (landscape) */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  
-  html, body {
-    height: 100%;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
+   /* ----------Below Header---------- */
+   .title_text {
+    margin: 5rem 20vw 5rem 20vw;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #1A1A1A;
+    font-weight: initial;
   }
-
-  /* ----------Navbar---------- */
-  .logo {
-    margin: 0 auto;
-  }
-
-  #navigation_bar img{
-    float: left;
-    height: 50px;
-    margin: 10px;
-    padding-left: 3%;
-  }
-
-  #navigation_bar {
-    background-color: #ffffff;
-    height: auto;
-    width: 100%;
-    text-align: right;
-    flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
-  }
-  
-  #navigation_bar ul {
-    padding: 10px 30px 10px 0px;
-    margin: 0px;
-    text-align: right;
-    display: inline-block;
-  }
-  
-  #navigation_bar li {
-    list-style-type: none;
-    padding: 0px;
-    display: inline;
-  }
-  
-  #navigation_bar li a {
-    color: black;
-    font-size: 20px;
-    font-family: Helvetica;
-    text-decoration: none;
-    line-height: 52px;
-    padding: 10px;
-    opacity: 0.8;
-  }
-
-  #navigation_bar li a:hover {
-    text-decoration: underline;
-  }
-  
-  /* ----------Header---------- */
-  .header_container {
-    background-image: url("/images_csm/andrew-ruiz-348421.jpg");
-    /* Image source: Community Science Museum, author: Andrew Ruiz */
-    background-position: center center;
-    position: relative;
-    height: 400px;
-  }
-
-  .inside_header_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  h1 {
-    font-size: 5rem;
-    color: #f5f5f5;
-    text-shadow: 1px 1px 1px #000;
-  }
-
   
 }
 
@@ -399,7 +326,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -442,19 +368,24 @@ html, body {
   }
 
   .inside_header_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-
-  h1 {
-    font-size: 7rem;
+    margin: 15vh 0 15vh 0;
+    text-align: center;
+    font-size: 5rem;
     color: #f5f5f5;
     text-shadow: 1px 1px 1px #000;
   }
 
+  
+  /* ----------Below Header---------- */
+  .title_text {
+    margin: 5rem 20vw 5rem 20vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1A1A1A;
+    font-weight: initial;
+  }
   
 }
 
@@ -495,7 +426,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -526,30 +456,34 @@ html, body {
     text-decoration: underline;
   }
 
-/* ----------Header---------- */
-.header_container {
-  background-image: url("/images_csm/andrew-ruiz-348421.jpg");
-  /* Image source: Community Science Museum, author: Andrew Ruiz */
-  background-position: center center;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60vh;
-}
+  /* ----------Header---------- */
+  .header_container {
+    background-image: url("/images_csm/andrew-ruiz-348421.jpg");
+    /* Image source: Community Science Museum, author: Andrew Ruiz */
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
 
-.inside_header_container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
+  .inside_header_container {
+    margin: 15vh 0 15vh 0;
+    text-align: center;
+    font-size: 5rem;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #000;
+  }
 
-h1 {
-  font-size: 7rem;
-  color: #f5f5f5;
-  text-shadow: 1px 1px 1px #000;
-}
-
+  /* ----------Below Header---------- */
+  .title_text {
+    margin: 5rem 0 5rem 0vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1A1A1A;
+    font-weight: initial;
+  }
 
 }

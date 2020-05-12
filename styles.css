@@ -53,7 +53,6 @@ html, body {
     width: 100%;
     text-align: center;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -123,7 +122,7 @@ html, body {
 
   /* ----------Below Header---------- */
   .join_us_textbox {
-    margin: 3rem 0.4rem 3rem 0.4rem;
+    margin: 5rem 0.4rem 5rem 0.4rem;
     text-align: center;
   }
 
@@ -240,7 +239,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -310,7 +308,7 @@ html, body {
 
   /* ----------Below Header---------- */
   .join_us_textbox {
-    margin: 3rem 2rem 3rem 2rem;
+    margin: 5rem 2rem 5rem 2rem;
     text-align: center;
   }
 
@@ -433,7 +431,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -507,7 +504,7 @@ html, body {
 
   /* ----------Below Header---------- */
   .join_us_textbox {
-    margin: 3rem 20vw 3rem 20vw;
+    margin: 4rem 20vw 4rem 20vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -637,7 +634,6 @@ html, body {
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -714,7 +710,7 @@ html, body {
 
   /* ----------Below Header---------- */
   .join_us_textbox {
-    margin: 3rem 20vw 3rem 20vw;
+    margin: 4rem 20vw 4rem 20vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -869,7 +865,6 @@ html, body {
       width: 100%;
       text-align: right;
       flex-direction: column;
-      border-bottom: solid thin rgb(100, 96, 96);
     }
     
     #navigation_bar ul {
@@ -947,7 +942,7 @@ html, body {
 
   /* ----------Below Header---------- */
   .join_us_textbox {
-    margin: 3rem 20vw 3rem 20vw;
+    margin: 4rem 20vw 4rem 20vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -965,7 +960,7 @@ html, body {
   /* ----------Articles---------- */
   .section_one {
   margin: 0 5rem 0 5rem;
-  background-color: #F1F2F6;
+  background: #f0f1f5;
   display: inline-block;
   align-items: flex-start;
 }

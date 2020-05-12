@@ -54,7 +54,6 @@
     width: 100%;
     text-align: center;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -102,9 +101,8 @@
 
   /* ----------Below Header---------- */
   .title_text {
-    margin: 3rem 0.4rem 3rem 0.4rem;
+    margin: 5rem 0.4rem 5rem 0.4rem;
     text-align: center;
-    font-size: initial;
   }
 
   h2 {
@@ -225,7 +223,6 @@
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -273,9 +270,8 @@
   
    /* ----------Below Header---------- */
    .title_text {
-    margin: 3rem 2rem 3rem 2rem;
+    margin: 5rem 2rem 5rem 2rem;
     text-align: center;
-    font-size: initial;
   }
 
   h2 {
@@ -403,7 +399,6 @@
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -456,12 +451,11 @@
 
    /* ----------Below Header---------- */
    .title_text {
-    margin: 3rem 20vw 3rem 20vw;
+    margin: 5rem 20vw 5rem 20vw;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
   }
 
   h2 {
@@ -594,7 +588,6 @@
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -649,7 +642,7 @@
 
   /* ----------Below Header---------- */
   .title_text {
-    margin: 4rem 20vw 2rem 20vw;
+    margin: 4rem 20vw 4rem 20vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -657,7 +650,6 @@
     font-size: 1.8rem;
     color: #1A1A1A;
     font-weight: initial;
-    font-size: 1.2rem;
   }
   
   /* ----------Articles---------- */
@@ -814,7 +806,6 @@
     width: 100%;
     text-align: right;
     flex-direction: column;
-    border-bottom: solid thin rgb(100, 96, 96);
   }
   
   #navigation_bar ul {
@@ -869,14 +860,13 @@ h1 {
 
 /* ----------Below Header---------- */
 .title_text {
-  margin: 4rem 0 2rem 0vw;
+  margin: 5rem 0 4rem 0vw;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #1A1A1A;
   font-weight: initial;
-  font-size: 1.3rem;
 }
 
 /* ----------Articles---------- */
