@@ -146,12 +146,12 @@
     font-weight: bold;
   }
 
-   /* ----------Form---------- */
+/* ----------Form---------- */
 
 .contact_us {
   text-align: center;
   margin: 0;
-  padding-top: 3rem;
+  padding-top: 5rem;
   opacity: 80%;
   font-size: 40px;
 }
