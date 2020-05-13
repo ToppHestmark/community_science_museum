@@ -75,7 +75,7 @@
     font-family: Helvetica;
     text-decoration: none;
     line-height: 35px;
-    padding: 4px;
+    padding: 3px 1.9vw 3px 2vw;
     opacity: 0.8;
   }
 
@@ -309,7 +309,7 @@ input {
     font-family: Helvetica;
     text-decoration: none;
     line-height: 35px;
-    padding: 3px;
+    padding: 3px 6px 3px 6px;
     opacity: 0.8;
   }
   
