@@ -161,6 +161,61 @@ html, body {
     font-size: 16px;
   }
 
+  /* ----------Form---------- */
+
+.contact_us {
+  text-align: center;
+  margin: 0;
+  padding-top: 3rem;
+  opacity: 80%;
+  font-size: 40px;
+}
+
+.form_text {
+  opacity: 80%;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+  font-size: small;
+  margin: 25px 25px;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 3px 3px;
+  width: 93%;
+  font-size: large;
+  font-style: normal;
+  opacity: 90%;
+  border: 0;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.comment_box {
+  padding: 10px 10px;
+  margin: 10px 0 0 3px;
+  height: 200px;
+  width: 93%;
+  font-size: large;
+  opacity: 90%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.form_container button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px;
+  margin: 10px 0 0 5px;
+  border: none;
+  background-color:rgb(40, 65, 207);
+  color :#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 30%;
+}
+
   /* ----------Bottom---------- */
   .bottom {
     margin-top: 10rem;
@@ -346,6 +401,69 @@ html, body {
     font-size: 16px;
   }
 
+  /* ----------Form---------- */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  width: 478px;
+  padding: 2 0px;
+}
+
+.contact_us {
+  align-self: center;
+  margin: 0;
+  padding-top: 3rem;
+  opacity: 80%;
+  font-size: 40px;
+}
+
+.form_text {
+  opacity: 80%;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+  font-size: small;
+  margin: 20px 20px;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 3px 3px;
+  width: 450px;
+  font-size: large;
+  font-style: normal;
+  opacity: 90%;
+  border: 0;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.comment_box {
+  padding: 10px;
+  margin: 10px 0 0 3px;
+  height: 200px;
+  width: 450px;
+  font-size: large;
+  opacity: 90%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.form_container button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px;
+  margin: 10px 0 0 5px;
+  border: none;
+  background-color:rgb(40, 65, 207);
+  color :#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 30%;
+}
+
   /* ----------Bottom---------- */
   .bottom {
     margin-top: 10rem;
@@ -518,7 +636,7 @@ html, body {
 
    /* ----------Articles---------- */
    .section_one, .section_two {
-    margin: 0 4rem 0 4rem;
+    margin: 0 12rem 0 12rem;
     background-color: #F1F2F6;
   }
 
@@ -546,6 +664,68 @@ html, body {
     margin: 1.5rem 1rem 1.5rem 1rem;
     font-size: 18px;
   }
+
+  /* ----------Form---------- */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  width: 478px;
+  padding: 2 0px;
+}
+
+.contact_us {
+  align-self: center;
+  margin: 0;
+  opacity: 80%;
+  font-size: 40px;
+}
+
+.form_text {
+  opacity: 80%;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+  font-size: small;
+  margin: 20px 20px;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 3px 3px;
+  width: 450px;
+  font-size: large;
+  font-style: normal;
+  opacity: 90%;
+  border: 0;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.comment_box {
+  padding: 10px;
+  margin: 10px 0 0 3px;
+  height: 200px;
+  width: 450px;
+  font-size: large;
+  opacity: 90%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.form_container button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px;
+  margin: 10px 0 0 5px;
+  border: none;
+  background-color:rgb(40, 65, 207);
+  color :#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 30%;
+}
 
   /* ----------Bottom---------- */
   .bottom {
@@ -777,6 +957,74 @@ html, body {
       margin-right: 2rem;
       text-align: end;
     }
+
+    /* ----------Form---------- */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  width: 478px;
+  padding: 2 0px;
+}
+
+.contact_us {
+  align-self: center;
+  margin: 0;
+  padding-top: 10rem;
+  opacity: 80%;
+  font-size: 48px;
+}
+
+.form_text {
+  opacity: 80%;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+  font-size: small;
+  margin: 20px 20px;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 3px 3px;
+  width: 450px;
+  font-size: large;
+  font-style: normal;
+  opacity: 90%;
+  border: 0;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.comment_box {
+  padding: 10px;
+  margin: 10px 0 0 3px;
+  height: 200px;
+  width: 450px;
+  font-size: large;
+  opacity: 90%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.form_container button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px;
+  margin: 10px 0 0 5px;
+  border: none;
+  background-color:rgb(40, 65, 207);
+  color :#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 30%;
+}
+
+
+.form_container button:hover {
+  background-color:rgb(91, 108, 206);
+}
   
     /* ----------Bottom---------- */
     .bottom {
@@ -1008,6 +1256,74 @@ html, body {
   font-size: x-small;
   margin-right: 5rem;
   text-align: end;
+}
+
+/* ----------Form---------- */
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  width: 478px;
+  padding: 2 0px;
+}
+
+.contact_us {
+  align-self: center;
+  margin: 0;
+  padding-top: 10rem;
+  opacity: 80%;
+  font-size: 48px;
+}
+
+.form_text {
+  opacity: 80%;
+  max-width: 90%;
+  text-align: center;
+  align-self: center;
+  font-size: small;
+  margin: 20px 20px;
+}
+
+input {
+  padding: 10px 10px;
+  margin: 3px 3px;
+  width: 450px;
+  font-size: large;
+  font-style: normal;
+  opacity: 90%;
+  border: 0;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.comment_box {
+  padding: 10px;
+  margin: 10px 0 0 3px;
+  height: 200px;
+  width: 450px;
+  font-size: large;
+  opacity: 90%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.form_container button {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px;
+  margin: 10px 0 0 5px;
+  border: none;
+  background-color:rgb(40, 65, 207);
+  color :#fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 30%;
+}
+
+
+.form_container button:hover {
+  background-color:rgb(91, 108, 206);
 }
 
 /* ----------Bottom---------- */

@@ -136,14 +136,7 @@ html, body {
     font-size: 1.2rem;
   }
 
-  /* ----------Form---------- */
-/* .form_container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: center;
-  padding: 2 0px;
-} */
+/* ----------Form---------- */
 
 .contact_us {
   text-align: center;
@@ -816,6 +809,11 @@ input {
   }
 
 /* ----------Articles---------- */
+
+main {
+  padding: 0 3rem 0 3rem;
+}
+
 .items_container {
   margin: 0 5rem 10rem 5rem;
   display: flex;
@@ -827,7 +825,7 @@ input {
 .section_container {
 margin: 0 1rem 3rem 1rem;
 background: #F1F2F6;
-width: 350px;
+width: 40%;
 height: 520px;
 }
 
@@ -1070,6 +1068,11 @@ footer p {
 
 
   /* ----------Articles---------- */
+
+  main {
+    padding: 0 10rem 0 10rem;
+  }
+
 .items_container {
   margin: 0 5rem 20vh 5rem;
   display: flex;
@@ -1081,8 +1084,8 @@ footer p {
 .section_container {
 margin: 0 1rem 3rem 1rem;
 background: #F1F2F6;
-width: 350px;
-height: 520px;
+width: 40%;
+height: 550px;
 }
 
 .section_container img {
