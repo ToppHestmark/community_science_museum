@@ -191,7 +191,7 @@ input {
   padding: 10px 10px;
   margin: 10px 0 0 3px;
   height: 200px;
-  width: 93%;
+  width: 92%;
   font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
@@ -208,7 +208,7 @@ input {
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
   /* ----------Bottom---------- */

@@ -157,7 +157,7 @@ html, body {
 input {
   padding: 10px 10px;
   margin: 3px 3px;
-  width: 93%;
+  width: 92%;
   font-size: large;
   font-style: normal;
   opacity: 90%;
@@ -187,7 +187,7 @@ input {
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
   /* ----------Bottom---------- */

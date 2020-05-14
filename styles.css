@@ -177,43 +177,28 @@ html, body {
     font-style: italic;
   }
 
-  /* ----------Form---------- */
-
-.contact_us {
-  text-align: center;
-  margin: 0;
-  padding-top: 5rem;
-  opacity: 80%;
-  font-size: 40px;
+/* ----------Form---------- */
+.form_container {
+  margin: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  padding-top: 8rem;
 }
 
 .form_text {
   opacity: 80%;
-  max-width: 90%;
-  text-align: center;
+  font-size: x-large;
+  margin-bottom: 3rem;
   align-self: center;
-  font-size: small;
-  margin: 25px 25px;
+  text-align: center;
 }
 
 input {
   padding: 10px 10px;
-  margin: 3px 3px;
-  width: 93%;
-  font-size: large;
+  width: 96%;
   font-style: normal;
-  opacity: 90%;
-  border: 0;
-  border: 2px solid #eee;
-  border-radius: 5px;
-}
-
-.comment_box {
-  padding: 10px 10px;
-  margin: 10px 0 0 3px;
-  height: 200px;
-  width: 93%;
-  font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
   border-radius: 5px;
@@ -222,14 +207,14 @@ input {
 .form_container button {
   appearance: none;
   -webkit-appearance: none;
-  padding: 12px;
-  margin: 10px 0 0 5px;
+  padding: 10px;
+  margin-top: 8px;
   border: none;
   background-color:rgb(40, 65, 207);
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
   /* ----------Bottom---------- */
@@ -434,51 +419,30 @@ input {
     font-style: italic;
   }
 
-  /* ----------Form---------- */
+/* ----------Form---------- */
 .form_container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: center;
-  width: 478px;
-  padding: 2 0px;
+  padding-top: 8rem;
 }
 
-.contact_us {
-  align-self: center;
-  margin: 0;
-  padding-top: 3rem;
-  opacity: 80%;
-  font-size: 40px;
+.contact_form {
+  width: 440px;
 }
 
 .form_text {
   opacity: 80%;
-  max-width: 90%;
-  text-align: center;
+  font-size: x-large;
+  margin-bottom: 3rem;
   align-self: center;
-  font-size: small;
-  margin: 20px 20px;
 }
 
 input {
   padding: 10px 10px;
-  margin: 3px 3px;
-  width: 450px;
-  font-size: large;
+  width: 400px;
   font-style: normal;
-  opacity: 90%;
-  border: 0;
-  border: 2px solid #eee;
-  border-radius: 5px;
-}
-
-.comment_box {
-  padding: 10px;
-  margin: 10px 0 0 3px;
-  height: 200px;
-  width: 450px;
-  font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
   border-radius: 5px;
@@ -487,14 +451,14 @@ input {
 .form_container button {
   appearance: none;
   -webkit-appearance: none;
-  padding: 12px;
-  margin: 10px 0 0 5px;
+  padding: 10px;
+  margin-top: 8px;
   border: none;
   background-color:rgb(40, 65, 207);
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
   /* ----------Bottom---------- */
@@ -716,51 +680,30 @@ input {
     font-style: italic;
   }
 
-  /* ----------Form---------- */
+ /* ----------Form---------- */
 .form_container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: center;
-  width: 478px;
-  padding: 2 0px;
+  padding-top: 8rem;
 }
 
-.contact_us {
-  align-self: center;
-  margin: 0;
-  padding-top: 7rem;
-  opacity: 80%;
-  font-size: 40px;
+.contact_form {
+  width: 440px;
 }
 
 .form_text {
   opacity: 80%;
-  max-width: 90%;
-  text-align: center;
+  font-size: x-large;
+  margin-bottom: 3rem;
   align-self: center;
-  font-size: small;
-  margin: 20px 20px;
 }
 
 input {
   padding: 10px 10px;
-  margin: 3px 3px;
-  width: 450px;
-  font-size: large;
+  width: 400px;
   font-style: normal;
-  opacity: 90%;
-  border: 0;
-  border: 2px solid #eee;
-  border-radius: 5px;
-}
-
-.comment_box {
-  padding: 10px;
-  margin: 10px 0 0 3px;
-  height: 200px;
-  width: 450px;
-  font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
   border-radius: 5px;
@@ -769,14 +712,18 @@ input {
 .form_container button {
   appearance: none;
   -webkit-appearance: none;
-  padding: 12px;
-  margin: 10px 0 0 5px;
+  padding: 13px;
+  margin-top: 8px;
   border: none;
   background-color:rgb(40, 65, 207);
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
+}
+
+.form_container button:hover {
+  background-color:rgb(91, 108, 206);
 }
 
   /* ----------Bottom---------- */
@@ -1042,48 +989,27 @@ input {
 /* ----------Form---------- */
 .form_container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  align-self: center;
-  width: 478px;
-  padding: 2 0px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 8rem;
 }
 
-.contact_us {
-  align-self: center;
-  margin: 0;
-  padding-top: 10rem;
-  opacity: 80%;
-  font-size: 48px;
+.contact_form {
+  width: 530px;
 }
 
 .form_text {
   opacity: 80%;
-  max-width: 90%;
-  text-align: center;
-  align-self: center;
-  font-size: small;
-  margin: 20px 20px;
+  font-size: x-large;
+  margin: 0 2rem 3rem 0;
 }
 
 input {
   padding: 10px 10px;
-  margin: 3px 3px;
-  width: 450px;
+  width: 500px;
   font-size: large;
   font-style: normal;
-  opacity: 90%;
-  border: 0;
-  border: 2px solid #eee;
-  border-radius: 5px;
-}
-
-.comment_box {
-  padding: 10px;
-  margin: 10px 0 0 3px;
-  height: 200px;
-  width: 450px;
-  font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
   border-radius: 5px;
@@ -1092,14 +1018,14 @@ input {
 .form_container button {
   appearance: none;
   -webkit-appearance: none;
-  padding: 12px;
-  margin: 10px 0 0 5px;
+  padding: 13px;
+  margin-top: 8px;
   border: none;
   background-color:rgb(40, 65, 207);
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
 
@@ -1368,48 +1294,29 @@ input {
 /* ----------Form---------- */
 .form_container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   align-self: center;
-  width: 478px;
-  padding: 2 0px;
+  justify-content: center;
+  width: 100%;
+  padding-top: 8rem;
 }
 
-.contact_us {
-  align-self: center;
-  margin: 0;
-  padding-top: 10rem;
-  opacity: 80%;
-  font-size: 48px;
+.contact_form {
+  width: 700px;
 }
 
 .form_text {
   opacity: 80%;
-  max-width: 90%;
-  text-align: center;
-  align-self: center;
-  font-size: small;
-  margin: 20px 20px;
+  font-size: xx-large;
+  margin: 0.5rem 5rem 0 0;
 }
 
 input {
   padding: 10px 10px;
-  margin: 3px 3px;
-  width: 450px;
+  width: 500px;
   font-size: large;
   font-style: normal;
-  opacity: 90%;
-  border: 0;
-  border: 2px solid #eee;
-  border-radius: 5px;
-}
-
-.comment_box {
-  padding: 10px;
-  margin: 10px 0 0 3px;
-  height: 200px;
-  width: 450px;
-  font-size: large;
   opacity: 90%;
   border: 2px solid #eee;
   border-radius: 5px;
@@ -1418,14 +1325,14 @@ input {
 .form_container button {
   appearance: none;
   -webkit-appearance: none;
-  padding: 12px;
-  margin: 10px 0 0 5px;
+  padding: 13px;
+  margin: 5px 0 0 5px;
   border: none;
   background-color:rgb(40, 65, 207);
   color :#fff;
   font-weight: 600;
   border-radius: 5px;
-  width: 30%;
+  width: 150px;
 }
 
 
