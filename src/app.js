@@ -1,6 +1,5 @@
 const body = document.querySelector("body");
 const nav = document.querySelector("nav");
-const arrowDown = document.querySelector(".arrow-down");
 
 const navbarSlideFromTheSide = () => {
   const burger = document.querySelector(".nav__burger");
@@ -9,7 +8,6 @@ const navbarSlideFromTheSide = () => {
 
   burger.addEventListener("click", () => {
     body.classList.toggle("body--preventScrolling");
-    // arrowDown.classList.toggle("arrow-hide");
     navLinksList.classList.toggle("nav--active");
 
     navLinks.forEach((link, index) => {
@@ -26,3 +24,19 @@ const navbarSlideFromTheSide = () => {
   });
 };
 navbarSlideFromTheSide();
+
+window.onscroll = () => {
+  const scrollingPosition = Math.ceil(window.scrollY);
+
+  if (scrollingPosition > 100) {
+    nav.classList.add("nav--fill");
+  } else {
+    nav.classList.remove("nav--fill");
+  }
+
+  if (scrollingPosition > 300) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+};
