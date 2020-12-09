@@ -5,36 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Come join us at the Community Science Museum where we’re committed to making science accessible to all. 
   The admission is free and there's plenty of things to explore">
-  <meta name="keywords" content="HTML, CSS">
   <meta name="author" content="Suphachai Hestmark">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="./src/styles/shared.css">
+  <link rel="stylesheet" href="./src/styles/home.css">
   <title>Community Science Museum | Explore Together</title>
 </head>
 <body>
-  <nav id="navigation_bar">
-    <div class="logo">
-      <img src="images_csm/logo_community_science.jpg" alt="Community science logo">
-    </div>
-    <ul>
-      <li><a href="pages/visit.html">Visit</a></li>
-      <li><a href="pages/joinus.html">Join us</a></li>
-      <li><a href="pages/explore.html">Explore</a></li>
-      <li><a href="pages/exhibition.html">Exhibition</a></li>
-      <li class="on_this_page"><a href="index.html">Home</a></li>
+
+  <nav class="nav"> 
+    <a href="./index.html" class="nav__logo">
+      <img src="./src/images_csm/logo.png" alt="Logo">
+    </a>
+    <ul class="nav__links">
+      <li class="nav__links--active nav__homeLink">
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./src/pages/exhibition.html">Exhibition</a>
+      </li>
+      <li>
+        <a href="./src/pages/explore.html">Explore</a>
+      </li>
+      <li>
+        <a href="./src/pages/joinus.html">Join us</a>
+      </li>
+      <li>
+        <a href="./src/pages/visit.html">Visit</a>
+      </li>
     </ul>
-  </nav>
-  <header class="header_container" alt="In the Community Science Museum">
-    <div class="inside_header_container">
-      <h1>Explore together</h1>
-    <h4 class="welcome_to">Welcome to Community Science Museum</h4>
-    <div class="header_bottom">
-      <h4>Open daily except Monday</h4>
-      <h4>Admission: <strong class="admission_fee">Free</strong></h4>
+    <div class="nav__burger">
+      <div class="nav__burgerLine1"></div>
+      <div class="nav__burgerLine2"></div>
+      <div class="nav__burgerLine3"></div>
     </div>
+  </nav>
+
+
+  <header class="index__header">
+    <div class="index__headerUpper">
+      <h1>Explore together</h1>
+      <h2>Welcome to Community Science Museum</h2>
+    </div>
+    <div class="index__headerBottom">
+      <h4>Open daily except Monday</h4>
+      <h4>Admission: <strong>Free</strong></h4>
     </div>
   </header>
-  <h2 class="whatsnew_title">What's new</h2>
+
   <main>
+    <h2 class="index__middleHeader">What's new</h2>
     <!-- ----------- First Section ----------- -->
     <section class="section_one">
       <img src="/images_csm/scientific-2040795.jpg" alt="Professor doing reasearch in the science lab.">
@@ -84,29 +103,57 @@
   </div>
 
   <!-- ----------- Bottom Section ----------- -->
-  <section class="bottom">
-      <div class="hours">
+  <footer class="footer">
+      <div class="footer__hoursContainer">
         <h4>Hours: </h4>
-        <p>Monday: Closed</p>
-        <p>Tuesday: 10:00 – 16:00</p>
-        <p>Wednesday: 10:00 – 16:00</p>
-        <p>Thursday: 10:00 – 16:00</p>
-        <p>Friday: 10:00 – 19:00</p>
-        <p>Saturday: 9:00 – 16:00</p>
-        <p>Sunday: 9:00 – 13:00</p>
+        <ul>
+          <li>
+           <p>Monday: Closed</p>
+          </li>
+          <li>
+            <p>Tuesday: 10:00 – 16:00</p>
+          </li>
+          <li>
+           <p>Wednesday: 10:00 – 16:00</p>
+          </li>
+          <li>
+           <p>Thursday: 10:00 – 16:00</p>
+          </li>
+          <li>
+           <p>Friday: 10:00 – 19:00</p>
+          </li>
+          <li>
+            <p>Saturday: 9:00 – 16:00</p>
+          </li>
+          <li>
+            <p>Sunday: 9:00 – 13:00</p>
+          </li>
+        </ul>
       </div>
-      <div class="address">
+      <div class="footer__addressContainer">
         <h4>Address:</h4>
-        <p>Stigerplatåveien 210</p>
-        <p>8626 Mo i Rana</p>
-        <p>Norway</p>
-        <p>Phone: 90 00 00 00</p>
-        <p>E-mail: info@example.com</p>
+        <ul>
+          <li>
+            <p>Stigerplatåveien 210</p>
+          </li>
+          <li>
+            <p>8626 Mo i Rana</p>
+          </li>
+          <li>
+            <p>Norway</p>
+          </li>
+          <li>
+            <p>Phone: 90 00 00 00</p>
+          </li>
+          <li>
+            <p>E-mail: info@example.com</p>
+          </li>
+        </ul>
       </div>
-  </section>
-  <footer>
-    <p>©2020 Community Science Museum, All rights reserved</p>
+      <div class="footer__bottom">
+        <p>©2020 Community Science Museum, All rights reserved</p>
+      </div>
   </footer>
-  <!-- Source photo for "Energetica": url <https://unsplash.com/photos/gxsRL8B_ZqE>, Photo by Christian Dubovan on Unsplash -->
+  <script src="./src/app.js"></script>
 </body>
 </html>

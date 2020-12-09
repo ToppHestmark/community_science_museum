@@ -1,0 +1,28 @@
+.index__header {
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  background-image: url('../images_csm/joshua-rawson-harris-WLXkaubn0Ig-unsplash.jpg');
+  /* Image source: url<https://unsplash.com/photos/WLXkaubn0Ig>, Photo by Joshua Rawson-Harris on Unsplash */
+}
+
+.index__header h2 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.index__headerBottom {
+  height: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.index__headerBottom strong {
+  color: #F58F4A;
+}
+
+@media (max-width: 480px) {
+  .index__header h1 {
+    font-size: 2.7rem !important;
+  }
+}
