@@ -6,7 +6,7 @@
   <meta name="description" content="Come join us at the Community Science Museum where we’re committed to making science accessible to all. 
   The admission is free and there's plenty of things to explore">
   <meta name="author" content="Suphachai Hestmark">
-  <link rel="stylesheet" type="text/css" href="./src/styles/shared.css">
+  <link rel="stylesheet" type="text/css" href="./src/styles/globalStyles.css">
   <link rel="stylesheet" href="./src/styles/home.css">
   <title>Community Science Museum | Explore Together</title>
 </head>
@@ -94,67 +94,23 @@
   </main>
 
     <!-- ----------- Form Section ----------- -->
-  <div class="form_container">
-    <p class="form_text">Bring some science to your inbox.
-    </p>
-  <form class="contact_form" action="/contactform.php" method="post">
-    <input type="text" name="email" id="email" placeholder="Enter your e-mail to sign up for our newsletter.">
-    <button type="submit" value="Submit">SUBMIT</button>
+  <div class="index__formComtainer">
+    <h4>
+      Bring some science to your inbox.
+    </h4>
+  <form class="index__form">
+    <input type="text" name="email" placeholder="E-mail">
+    <button type="submit" value="Submit">
+      SUBMIT
+    </button>
     </form>
   </div>
 
-  <!-- ----------- Bottom Section ----------- -->
-  <footer class="footer">
-      <div class="footer__hoursContainer">
-        <h4>Hours: </h4>
-        <ul>
-          <li>
-           <p>Monday: Closed</p>
-          </li>
-          <li>
-            <p>Tuesday: 10:00 – 16:00</p>
-          </li>
-          <li>
-           <p>Wednesday: 10:00 – 16:00</p>
-          </li>
-          <li>
-           <p>Thursday: 10:00 – 16:00</p>
-          </li>
-          <li>
-           <p>Friday: 10:00 – 19:00</p>
-          </li>
-          <li>
-            <p>Saturday: 9:00 – 16:00</p>
-          </li>
-          <li>
-            <p>Sunday: 9:00 – 13:00</p>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__addressContainer">
-        <h4>Address:</h4>
-        <ul>
-          <li>
-            <p>Stigerplatåveien 210</p>
-          </li>
-          <li>
-            <p>8626 Mo i Rana</p>
-          </li>
-          <li>
-            <p>Norway</p>
-          </li>
-          <li>
-            <p>Phone: 90 00 00 00</p>
-          </li>
-          <li>
-            <p>E-mail: info@example.com</p>
-          </li>
-        </ul>
-      </div>
-      <div class="footer__bottom">
-        <p>©2020 Community Science Museum, All rights reserved</p>
-      </div>
-  </footer>
+  <!-- ----------- Footer ----------- -->
+  <footer class="footer"></footer>
+  
+  <script src="./src/components/Footer.js"></script>
   <script src="./src/app.js"></script>
+    <!-- Source photo for "Energetica": url <https://unsplash.com/photos/gxsRL8B_ZqE>, Photo by Christian Dubovan on Unsplash -->
 </body>
 </html>

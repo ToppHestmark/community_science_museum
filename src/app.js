@@ -33,10 +33,7 @@ window.onscroll = () => {
   } else {
     nav.classList.remove("nav--fill");
   }
-
-  if (scrollingPosition > 300) {
-    scrollToTopButton.style.display = "block";
-  } else {
-    scrollToTopButton.style.display = "none";
-  }
 };
+
+const footer = document.querySelector(".footer");
+footer.innerHTML = footerHTML;
