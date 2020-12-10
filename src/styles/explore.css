@@ -1,4 +1,67 @@
 .explore__header {
-  background-image: url('./../images_csm/library-1132573_1920.jpg');
-    /* Image source: Community Science Museum */
+  background-image: url("./../images_csm/library-1132573_1920.jpg");
+  /* Image source: Community Science Museum */
+}
+
+.explore__main {
+  width: 90vw;
+}
+
+.explore__sections {
+  display: flex;
+  background-color: #eceef5;
+  margin-bottom: 7vh;
+}
+.explore__sections:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.explore__sections img {
+  width: 50%;
+  height: auto;
+}
+
+.explore__textContainer {
+  margin: 20px 40px 0 40px;
+}
+
+.explore__sections h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.explore__sections p {
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1112px) {
+  .explore__main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .explore__sections {
+    width: 75%;
+    flex-direction: column !important;
+  }
+  .explore__sections img {
+    width: 100%;
+    height: auto;
+  }
+  .explore__textContainer {
+    margin: 20px 40px 70px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .explore__sections {
+    width: 90%;
+    margin-bottom: 5vh;
+    background-color: inherit;
+  }
+  .explore__textContainer {
+    margin: 20px 0px 20px 0px;
+  }
 }

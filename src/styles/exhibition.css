@@ -10,7 +10,7 @@
 .exhibition__sections {
   display: flex;
   background-color: #eceef5;
-  margin-bottom: 10vh;
+  margin-bottom: 7vh;
 }
 .exhibition__sections:nth-child(odd) {
   flex-direction: row-reverse;
