@@ -1,4 +1,75 @@
 .visit__header {
-  background-image: url('./../images_csm/andrew-ruiz-348421.jpg');
+  background-image: url("./../images_csm/andrew-ruiz-348421.jpg");
   /* Image source: Community Science Museum, author: Andrew Ruiz */
+}
+
+.visit__main {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.visit__sections {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.visit__cardContainer {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  margin: 5vh 0 15vh 0;
+}
+
+.visit__cardContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.visit__cardContainer h2 {
+  font-weight: 400;
+  margin: 20px 0;
+  opacity: 0.8;
+}
+
+.visit__cardContainer p {
+  margin-bottom: 13px;
+  opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+  .visit__main {
+    width: 100vw;
+  }
+  .visit__cardContainer {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 990px) {
+  .visit__cardContainer {
+    margin: 5vh 10px 0vh 10px;
+    min-height: 430px;
+  }
+  .visit__cardContainer h2 {
+    font-size: 1.2rem;
+  }
+  .visit__cardContainer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .visit__main {
+    flex-direction: column;
+  }
+  .visit__cardContainer {
+    margin: 0 20px;
+    padding-top: 30px;
+    min-height: 400px;
+  }
 }
