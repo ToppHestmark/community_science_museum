@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 
 h1,
@@ -230,13 +230,141 @@ nav {
   padding: 0 10px;
 }
 
+/* ############################################
+--- <<<     Form section     >>> ---
+---############################################ */
+.form__section {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.form__container {
+  width: 50vw;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 5vh;
+}
+.form__textContainer {
+  padding: 10px 0px 50px 0px;
+}
+.form__container h2,
+.form__container p {
+  text-align: center;
+}
+.form__container h2 {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.form__container p {
+  margin: 10px 5px 10px 5px;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#contactForm {
+  padding: 0.5rem 1.2rem 1rem 1.2rem;
+  border-radius: 3px;
+  margin-bottom: 10vh;
+}
+#contactForm label {
+  font-size: smaller;
+  opacity: 0.4;
+  letter-spacing: 1px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 95%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  outline-width: 0;
+  background-color: #fff;
+  color: #55595c;
+  letter-spacing: 1px;
+}
+
+#contactForm textarea {
+  resize: vertical;
+}
+
+#contactForm button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+  color: #55595c;
+  margin-top: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  letter-spacing: 3px;
+  outline: 0;
+}
+
+#contactForm button:hover {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+#contactForm button:active {
+  background-color: #393e46;
+}
+
+#contactForm .form-error {
+  display: none;
+  color: #f53b3b;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.form__container .passed-validation {
+  display: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .form__container {
+    width: 75vw;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .form__container {
+    width: 80vw;
+    max-width: 500px;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    width: 93%;
+  }
+}
+
+@media (max-width: 480px) {
+  .form__container {
+    width: 95vw;
+  }
+  #contactForm {
+    padding: 0.5rem 1.2rem 1rem 0.5rem;
+  }
+}
+
 /* #################################
 ------------ Footer ---------------
 ################################# */
 .footer {
   width: 100%;
   min-height: 30vh;
-  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

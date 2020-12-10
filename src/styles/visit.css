@@ -61,6 +61,9 @@
   .visit__cardContainer p {
     font-size: 14px;
   }
+  .visit__main {
+    margin-bottom: 10vh;
+  }
 }
 
 @media (max-width: 480px) {

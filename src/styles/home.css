@@ -118,6 +118,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10vh;
 }
 
 .index__formComtainer h4 {
@@ -138,12 +139,16 @@
 .index__form button {
   width: 140px;
   height: 38px;
-  font-size: 18px;
-  border: none;
-  background-color: rgb(40, 65, 207);
-  color: white;
-  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  color: #1a1a1a;
   cursor: pointer;
+}
+.index__form button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {
