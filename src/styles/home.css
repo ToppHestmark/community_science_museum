@@ -1,7 +1,7 @@
 .index__header {
   flex-direction: column !important;
   justify-content: space-around !important;
-  background-image: url('../images_csm/joshua-rawson-harris-WLXkaubn0Ig-unsplash.jpg');
+  background-image: url("../images_csm/joshua-rawson-harris-WLXkaubn0Ig-unsplash.jpg");
   /* Image source: url<https://unsplash.com/photos/WLXkaubn0Ig>, Photo by Joshua Rawson-Harris on Unsplash */
 }
 
@@ -18,7 +18,7 @@
 }
 
 .index__headerBottom strong {
-  color: #F58F4A;
+  color: #f58f4a;
 }
 
 @media (max-width: 480px) {
@@ -101,7 +101,7 @@
     width: 90%;
   }
   .index__sectionTextContainer {
-    padding: 20px 0 50px 0;
+    padding: 20px 0 80px 0;
   }
   .index__sectionTextContainer h2,
   .index__sectionTextContainer p {

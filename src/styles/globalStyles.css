@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   display: flex;
@@ -13,7 +13,10 @@ body {
   background-color: #f5f5f5;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: helvetica;
 }
 p {
@@ -43,8 +46,18 @@ header {
 }
 
 header h1 {
+  text-transform: uppercase;
   font-size: 4rem;
   margin: 0 10px;
+}
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+header h4 {
+  letter-spacing: 1.5px;
 }
 
 nav {
@@ -58,8 +71,8 @@ nav {
 }
 
 .nav__logo img {
- width: 100px;
- margin: -20px 0 -20px 5vw;
+  width: 100px;
+  margin: -20px 0 -20px 5vw;
 }
 
 .nav__links {
@@ -185,7 +198,7 @@ nav {
     min-height: 8vh;
   }
   .nav__links {
-    width: 50%;  
+    width: 50%;
   }
 }
 
@@ -195,11 +208,25 @@ nav {
   }
   .nav__logo img {
     width: 80px;
-   }
-  .nav__links {
-    width: 60%;  
   }
+  .nav__links {
+    width: 60%;
+  }
+}
 
+/* #################################
+--- Pages forewords below the header --
+################################# */
+.pages__foreWords {
+  min-height: 25vh;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1a1a1a;
+  font-weight: 400;
+  padding: 0 10px;
 }
 
 /* #################################
@@ -263,6 +290,6 @@ nav {
     align-self: center;
   }
   .footer__detailsContainer {
-   flex-direction: column;
+    flex-direction: column;
   }
 }
