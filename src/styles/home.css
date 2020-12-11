@@ -51,23 +51,18 @@
   flex-direction: row-reverse;
 }
 
-.index__SectionsImageContainer,
+.index__sections img,
 .index__sectionTextContainer {
   background-color: #eceef5;
   width: 50%;
 }
 
-.index__SectionsImageContainer img {
-  width: 100%;
-  height: auto;
-}
-
-.index__sectionTextContainer h2,
-.index__sectionTextContainer p {
+.index__sectionTextContainer {
   padding: 25px 20px 0 40px;
 }
 
 .index__sectionTextContainer h2 {
+  margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 400;
   text-decoration: underline;
@@ -96,7 +91,7 @@
     flex-direction: column !important;
     align-items: center;
   }
-  .index__SectionsImageContainer,
+  .index__sections img,
   .index__sectionTextContainer {
     width: 90%;
   }
